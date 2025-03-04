@@ -12,7 +12,7 @@ public class ToDoController : ControllerBase
 
 
     [HttpGet, Route("all")]
-    public IActionResult getToDos()
+    public ActionResult<List<ToDo>> getToDos()
     {
 
         return Ok(new List<ToDo>());
