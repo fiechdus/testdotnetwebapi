@@ -32,4 +32,4 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
       - name: Test
-        run: dotnet test ./TestProject1/TestProject1.csproj --no-build --verbosity normal
+        run: dotnet test TestProject1/TestProject1.csproj --no-build --verbosity normal
